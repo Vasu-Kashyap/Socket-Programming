@@ -26,8 +26,10 @@ but reports only the top CPU consuming process) and sends the process informatio
 7. The client closes the connection.
 
 Sample format of /proc/[pid]/stat
+
 (Details at https://man7.org/linux/man-pages/man5/proc.5.html)
 User space and kernel space CPU time (measured time in clock ticks) is marked in RED.
+
 $ cat /proc/76893/stat
 76893 (top) S 76734 76893 76734 34825 76893 4194304 400 0 0 0 573 806 0 0 20 0 1 0
 1453568921 43216896 1066 18446744073709551615 4194304 4292532 140726554046848 0 0 0 0
